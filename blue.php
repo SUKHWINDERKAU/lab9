@@ -5,18 +5,18 @@
 		<title>Blue Blocks | COMP1002 HTML, CSS, and JS Fundamentals</title>
 		<meta name="author" content="The name of the document’s author to go here">
 		<meta name="description" content="A concise and accurate summary of the document content is to appear here">
-		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-		<link rel="stylesheet" href="css/normalize.css" />
-		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+		<link rel="stylesheet" href="normalize.css" />
+		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body id="section4">
 		<!-- Page-level header -->
 		<header>
-			<img src="images/html-logo.svg" height="75" width="75" alt="HTML" />
+			<img src="html-logo.svg" height="75" width="75" alt="HTML" />
 			<h1>HTML, CSS, and JS Fundamentals</h1>
 			<h2>Building Blocks for Web Developers</h2>
 <?php
-	include('includes/global-nav.php');
+	include('global-nav.php');
 ?>
 		</header>
 		<!-- Page-level main content -->
@@ -28,7 +28,7 @@
 			</section>
 			<aside>
 				<figure>
-					<img src="images/blue-block.png" width="350" height="237" alt="Blue block" />
+					<img src="blue-block.png" width="350" height="237" alt="Blue block" />
 					<figcaption><a href="https://openclipart.org/detail/224274/clip-is-a-brick-2x4" title="View the original artwork" rel="external">Brick</a> by Vanja (Public Domain)</figcaption>
 				</figure>
 			</aside>
@@ -36,7 +36,7 @@
 		<!-- Page-level footer -->
 		<footer>
 <?php
-	include('includes/footer-nav.php');
+	include('footer-nav.php');
 ?>
 			<p><small>© HTML, CSS, and JS Blocks Inc.</small></p>
 		</footer>
