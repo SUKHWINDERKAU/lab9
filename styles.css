@@ -4,10 +4,10 @@ html {
 	background-color: lightskyblue;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 /* STEP 1: Change the below font stack to begin with our preferred font, "Trebuchet MS", instead of Tahoma - you will need to add quotes to this font as it has a space in the name */
-    color:dimgrey;
+       color:dimgrey;
 /* STEP 2: Add a color property below to change the default text color to 'dimgrey' */
      
-     font-size: 10px;
+       font-size: 10px;
 /* STEP 3a: Set the root type size in px on the HTML element rule - try 10px */
 
 }
@@ -44,12 +44,12 @@ header h2 {
 
 main {
 /* STEP 3c: Size up the content in the MAIN element part of the page as well - try 1.8rem */
-      font-size: 1.8rem;
+         font-size: 1.8rem;
 
 /* STEP 4: Adjust the line-height for better readability - set to 1.5 (no units - we will just use a factor) for all content inside the MAIN element - this will inherit */
-      line-height: 1.5;
+        line-height: 1.5;
 /* STEP 5: Justify text inside the MAIN element of the page so that is has a straight edge both on the left and right sides - text-align: justify (have a look at the result in the browser - we will add margins for space around the text next week */
-    text-align: justify;
+        text-align: justify;
 	/* Arrange the SECTION and the ASIDE elements side-by-side in columns (you don't have to do this, it's just a note explaining the below 3 lines of code) */
 	display: flex;
 	flex-direction: row;
@@ -75,7 +75,7 @@ main aside {
 
 .new-feature {
 	padding-left: 25px;
-	background-image: url("../images/new.png");
+	background-image: url("new.png");
 	background-repeat: no-repeat;
 	background-position: top left;
 }
@@ -86,7 +86,7 @@ main aside {
 
 [rel="external"] {
 	padding-right: 20px;
-	background-image: url("../images/extlink.png");
+	background-image: url("extlink.png");
 	background-repeat: no-repeat;
 	background-position: top right;
 }
