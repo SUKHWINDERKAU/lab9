@@ -5,19 +5,19 @@
 		<title>Home | COMP1002 HTML, CSS, and JS Fundamentals</title>
 		<meta name="author" content="The name of the document’s author to go here" />
 		<meta name="description" content="A concise and accurate summary of the document content is to appear here">
-		<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
-		<link rel="stylesheet" href="css/styles.css"/>
+		<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+		<link rel="stylesheet" href="styles.css"/>
 		<!-- STEP 1: Build a LINK element to attach the EXTERNAL style sheet located in the 'css' folder - the CSS file is called, 'styles.css' - don't forget to add the rel attribute equal to 'stylesheet' -->
 		
 	</head>
 	<body id="section1">
 		<!-- Page-level header -->
 		<header>
- 			<img src="images/html-logo.svg" height="75" width="75" alt="HTML" />
+ 			<img src="html-logo.svg" height="75" width="75" alt="HTML" />
 			<h1>HTML, CSS, and JS Fundamentals</h1>
 			<h2>Building Blocks for Web Developers</h2>
 <?php
-	include('includes/global-nav.php');
+	include('global-nav.php');
 ?>
 		</header>
 		<!-- Page-level main content -->
@@ -55,7 +55,7 @@
 					<button type="submit">Subscribe</button>
 				</form>
 				<figure>
-					<img src="images/mini-figure.png" width="176" height="285" alt="Mini figure">
+					<img src="mini-figure.png" width="176" height="285" alt="Mini figure">
 					<figcaption><a href="https://www.lego.com/" rel="external" title="Visit the offical LEGO® Web site">LEGO®</a> mini figure by Vanja (Public Domain)</figcaption>
 					<!-- Mini figure by Vanja (Public Domain) https://openclipart.org/detail/224315/clip-is-a-brick-minifig-4 -->
 				</figure>
@@ -71,7 +71,7 @@
 		<!-- Page-level footer -->
 		<footer>
 <?php
-	include('includes/footer-nav.php');
+	include('footer-nav.php');
 ?>
 			<p><small>© HTML, CSS, and JS Blocks Inc.</small></p>
 		</footer>
